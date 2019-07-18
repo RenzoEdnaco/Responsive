@@ -47,29 +47,42 @@ table {
 
 
 
+/* MEDIA QUERY */
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 320px) {
 
 
 
+    .parent-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .parent{
+        display: flex;
+        justify-content: center;
+    }
+
+    .ListOfActivity{
+        width: 50px;
+    }
+
+  }
+  
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+  }
+  
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+
+    }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* MEDIA QUERY */
 
 
 html{
@@ -77,22 +90,27 @@ html{
 }
 
 body{
-    background-color: #0a1b2b;
+    background-image: url("../svg/baphomet.svg");
+    background-color: #000000;
+    background-position: center;    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 700px;
 }
 
 
 h1{
     font-family: 'Montserrat', sans-serif;
-    font-weight: 800;   
+    font-weight: 700;   
     font-size: 14px;
-    color: #2eb0ab;
+    color: #da2516;
 }
 
 h2{
     font-family: 'Montserrat', sans-serif;
-    font-weight: 800;   
+    font-weight: 600;   
     font-size: 14px;
-    color: #fff;;
+    color: #da2516;
 }
 
 
@@ -100,8 +118,8 @@ h2{
 p{
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
-    color: #a4a6af;
-    font-weight: 500;
+    color: #464646;
+    font-weight: 400;
 }
 
 
@@ -126,8 +144,9 @@ p{
     width: 50%;
     padding: 20px 20px 0 20px;
     margin: 15px;
-    background-color: #122432;
-    color: black;
+    background-color: #000;
+    border: 1px solid #252525;
+    color: #da2516;
     border-radius: 10px;
 }
 
@@ -139,24 +158,16 @@ p{
     width: 50%;
     padding: 20px 20px 0 20px;
     margin: 15px;
-    background-color: #122432;
-    color: black;
+    background-color: #000;
+    border: 1px solid #252525;
+    color: #da2516;
     border-radius: 10px;
 }
 
-.child-3{
-    display: flex;
-    padding: 20px;
-    margin: 15px;
-    background-color: #122432;
-    height: 300px;
-    color: black;
-    border-radius: 10px;
-}
 
 .border-bottom{
     margin: 20px 0 20px 0;
-    border-bottom: 1px solid #1c3446;
+    border: 1px solid #202020;
 }
 
 
@@ -176,7 +187,7 @@ p{
     font-weight: 500;
     width: 40px;
     height: 40px;
-    background-color: #2eb0ab;
+    background-color: #da2516;
     border-radius: 5px;
     color: white;
     margin-right: 20px;
@@ -201,21 +212,94 @@ p{
 .right-side p{
     font-size: 30px;
     font-weight: 400;
-    color: #2eb0ab;
+    color: #da2516;
 }
 
 .girl-1{
     position: inherit;
-    height: 330px;
-    margin: -130px 0 0 76px;
+    margin: -90px 0 0 0px;
 }
 
-.tangina{
-    
+.tae{
+    height: 100%;
+
+}
+
+
+.calltoaction{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 20px;
 }
 
 .bitch{
-    font-size: 30px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 500;
+    color: #da2516;
+    margin: auto 0;
+}
+
+.read-more{
+    color: #da2516;
+    padding: 15px;
+    width: 100px;
+    border: 1px solid #da2516;
+    border-radius: 100px;
+}
+
+.read-more p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #da2516;
+    text-align: center;
+}
+
+
+.table{
+    padding: 20px;
+    margin: 15px;
+    background-color: #000;
+    border: 1px solid #252525;
+    height: 300px;
+    color: #da2516;
+    border-radius: 10px;
+}
+
+.table-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #252525;
+    padding-bottom: 20px;
+}
+
+.table-title input{
+    border: 1px solid #252525;
+    background-color: #000;
+    color: #464646;
+    padding: 10px;
+}
+
+.table-title input:hover{
+    border: 1px solid #da2516;
+    color: #da2516;
+    
+}
+
+.table-title input:focus{
+    border: 1px solid #da2516;
+    color: #da2516;
+}
+
+button{
+    border: none;
+    background-color: #da2516;
     color: #fff;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+    height: 38px;
+    font-family: 'Montserrat', sans-serif;
 }
