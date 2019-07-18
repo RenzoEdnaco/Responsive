@@ -92,16 +92,26 @@ html{
 body{
     background-image: url("../svg/baphomet.svg");
     background-color: #000000;
+<<<<<<< HEAD
     background-position: center;    
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 700px;
+=======
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+>>>>>>> ea735b51736a15137e655fd4e23d4acb0ea96b54
 }
 
 
 h1{
     font-family: 'Montserrat', sans-serif;
+<<<<<<< HEAD
     font-weight: 700;   
+=======
+    font-weight: 7  00;   
+>>>>>>> ea735b51736a15137e655fd4e23d4acb0ea96b54
     font-size: 14px;
     color: #da2516;
 }
@@ -217,11 +227,16 @@ p{
 
 .girl-1{
     position: inherit;
+<<<<<<< HEAD
     margin: -90px 0 0 0px;
+=======
+    margin: -150px 0 0 76px;
+>>>>>>> ea735b51736a15137e655fd4e23d4acb0ea96b54
 }
 
 .tae{
     height: 100%;
+<<<<<<< HEAD
 
 }
 
@@ -303,3 +318,12 @@ button{
     height: 38px;
     font-family: 'Montserrat', sans-serif;
 }
+=======
+}
+
+.bitch{
+    font-size: 30px;
+    font-weight: 400;
+    color: #464646;
+}
+>>>>>>> ea735b51736a15137e655fd4e23d4acb0ea96b54
