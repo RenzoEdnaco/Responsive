@@ -77,22 +77,26 @@ html{
 }
 
 body{
-    background-color: #0a1b2b;
+    background-image: url("../svg/baphomet.svg");
+    background-color: #000000;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 
 h1{
     font-family: 'Montserrat', sans-serif;
-    font-weight: 800;   
+    font-weight: 7  00;   
     font-size: 14px;
-    color: #2eb0ab;
+    color: #da2516;
 }
 
 h2{
     font-family: 'Montserrat', sans-serif;
-    font-weight: 800;   
+    font-weight: 600;   
     font-size: 14px;
-    color: #fff;;
+    color: #da2516;
 }
 
 
@@ -100,8 +104,8 @@ h2{
 p{
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
-    color: #a4a6af;
-    font-weight: 500;
+    color: #464646;
+    font-weight: 400;
 }
 
 
@@ -126,8 +130,9 @@ p{
     width: 50%;
     padding: 20px 20px 0 20px;
     margin: 15px;
-    background-color: #122432;
-    color: black;
+    background-color: #000;
+    border: 1px solid #252525;
+    color: #da2516;
     border-radius: 10px;
 }
 
@@ -139,8 +144,9 @@ p{
     width: 50%;
     padding: 20px 20px 0 20px;
     margin: 15px;
-    background-color: #122432;
-    color: black;
+    background-color: #000;
+    border: 1px solid #252525;
+    color: #da2516;
     border-radius: 10px;
 }
 
@@ -156,7 +162,7 @@ p{
 
 .border-bottom{
     margin: 20px 0 20px 0;
-    border-bottom: 1px solid #1c3446;
+    border: 1px solid #202020;
 }
 
 
@@ -176,7 +182,7 @@ p{
     font-weight: 500;
     width: 40px;
     height: 40px;
-    background-color: #2eb0ab;
+    background-color: #da2516;
     border-radius: 5px;
     color: white;
     margin-right: 20px;
@@ -201,21 +207,20 @@ p{
 .right-side p{
     font-size: 30px;
     font-weight: 400;
-    color: #2eb0ab;
+    color: #da2516;
 }
 
 .girl-1{
     position: inherit;
-    height: 330px;
-    margin: -130px 0 0 76px;
+    margin: -150px 0 0 76px;
 }
 
-.tangina{
-    
+.tae{
+    height: 100%;
 }
 
 .bitch{
     font-size: 30px;
     font-weight: 400;
-    color: #fff;
+    color: #464646;
 }
