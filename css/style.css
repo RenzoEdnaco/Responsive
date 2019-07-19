@@ -215,9 +215,8 @@ p{
 }
 
 .girl-1{
-    position: inherit;
-    margin: -90px 0 0 0px;
-    margin: -150px 0 0 76px;
+    width: 500px;
+    margin-top: -90px;
 }
 
 .tae{
@@ -229,7 +228,7 @@ p{
 .calltoaction{
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 50px;
     padding: 20px;
 }
 
@@ -293,21 +292,25 @@ p{
     color: #da2516;
 }
 
+.search{
+    display: flex;
+}
+
 button{
     border: none;
     background-color: #da2516;
     color: #fff;
     padding: 10px 20px 10px 20px;
     cursor: pointer;
-    font-weight: 600;
+    font-weight: 400;
     height: 38px;
     font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
 }
 
 
-
 .bitch{
-    font-size: 30px;
+    font-size: 16px;
     font-weight: 400;
     color: #464646;
 }
