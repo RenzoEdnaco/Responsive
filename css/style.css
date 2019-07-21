@@ -94,6 +94,7 @@ body{
     background-color: #000000;
     background-position: center;
     background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -324,25 +325,35 @@ button{
 .divTable{
 	display: table;
     width: 100%;
-    border: 1px solid #252525;
 }
 .divTableRow {
-	display: table-row;
+    display: table-row;
+
 }
+
 .divTableHeading {
-	background-color: #EEE;
-	display: table-header-group;
+	background-color: #da2516;
+    display: table-header-group;
+    display: table-cell;
+    padding: 15px 10px;
+    border: none;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
 }
+
+.divTableHeading:nth-child(1){
+    width: 30%; 
+}
+
 .divTableCell, .divTableHead {
 	border: 1px solid #252525;
 	display: table-cell;
-    padding: 10px 10px;
+    padding: 15px 10px;
 }
-.divTableHeading {
-	background-color: #EEE;
-	display: table-header-group;
-	font-weight: bold;
-}
+
+
+
 .divTableFoot {
 	background-color: #EEE;
 	display: table-footer-group;
