@@ -42,6 +42,11 @@ table {
 	border-spacing: 0;
 }
 
+
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
 /* CSS RESET */
 
 
@@ -54,19 +59,108 @@ table {
 @media only screen and (max-width: 320px) {
 
 
-
-    .parent-container{
+    .parent{
+        width: 320px !important;
         display: flex;
-        flex-wrap: wrap;
+        margin: 0 !important;
+        align-items: center;
     }
 
-    .parent{
-        display: flex;
-        justify-content: center;
+    .group{
+        width: 100%;
+        flex-direction: column;
     }
 
     .ListOfActivity{
-        width: 50px;
+        width: auto !important;
+    }   
+
+    .ListOfActivity h1{
+        text-align: center;
+    }
+
+
+    .left-side{
+        width: 50%;
+    }
+
+    .right-side{
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .initials{
+        display: none !important;
+    }
+
+    .info h2 {
+
+        padding-bottom: 5px !important;
+    }
+
+    .info p{
+        line-height: 20px;
+    }
+
+    .responsive-challenge{
+        width: auto !important;
+    }
+
+
+    .girl-1{
+        width: 250px !important;
+        margin-top: -40px !important;
+    }
+
+    .calltoaction{
+        padding: 0 !important;
+        margin-top: 30px !important;
+        flex-direction: column;
+    }
+    }
+
+    .bitch{
+        width: 100%;
+    }
+
+    .read-more{
+        margin: 20px auto;
+    }
+
+    .table{
+        display: flex;
+        width: 100% !important; 
+        
+    }
+
+    .table-title{
+        width   : 100%;
+    }
+
+    .table-title h1{
+        text-align: center;
+
+    }
+
+    .divTable{
+
+    }
+
+    .divTableBody{
+
+    }
+
+    .divTableRow{
+
+    }
+
+    .divTableHeading{
+
+    }
+
+    .divTableCell{
+
     }
 
   }
@@ -79,7 +173,23 @@ table {
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
 
+
+    .parent-container{
+        display: flex;
+        flex-direction: column;
     }
+
+    .parent{
+        width: 961px !important;   
+        display: flex;
+        flex-direction: column;
+    }
+
+    .group{
+        width: 100%;
+    }
+
+  }
 
 
 /*======================== MEDIA QUERY ========================*/
@@ -95,7 +205,6 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     font-family: 'Montserrat', sans-serif;
-
 }
 
 
@@ -266,7 +375,7 @@ p{
     margin: 15px;
     background-color: #000;
     border: 1px solid #252525;
-    height: 300px;
+    height: auto;
     color: #da2516;
     border-radius: 10px;
 }
@@ -332,17 +441,17 @@ button{
 }
 
 .divTableHeading {
-	background-color: #da2516;
+	background-color: #252525;
     display: table-header-group;
     display: table-cell;
     padding: 15px 10px;
     border: none;
-    color: #fff;
+    color: #505050;
     font-size: 10px;
     font-weight: 600;
 }
 
-.divTableHeading:nth-child(1){
+.divTableHeading:nth-child(2){
     width: 30%; 
 }
 
@@ -350,8 +459,10 @@ button{
 	border: 1px solid #252525;
 	display: table-cell;
     padding: 15px 10px;
+    color: #464646;
+    font-weight: 400;
+    font-size: 14px;
 }
-
 
 
 .divTableFoot {
@@ -362,3 +473,6 @@ button{
 .divTableBody {
 	display: table-row-group;
 }
+
+
+/*======================== TABLE MISMO ========================*/
