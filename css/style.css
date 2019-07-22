@@ -54,6 +54,12 @@ table {
 /* Mobile Styles */
 @media only screen and (max-width: 320px) {
 
+    body{
+        background-image: url("../svg/baphomet.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
 
     .parent{
         width: 320px !important;
@@ -107,6 +113,7 @@ table {
     .girl-1{
         width: 250px !important;
         margin-top: -40px !important;
+        margin-left: 0px !important;
     }
 
     .calltoaction{
@@ -169,6 +176,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     font-family: 'Montserrat', sans-serif;
+    background-attachment: fixed;
 }
 
 
@@ -291,6 +299,7 @@ p{
 .girl-1{
     width: 440px;
     margin-top: -90px;
+    margin-left: 40px;
 }
 
 .tae{
