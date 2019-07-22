@@ -43,10 +43,6 @@ table {
 }
 
 
-*, *:before, *:after {
-    box-sizing: inherit;
-  }
-
 /* CSS RESET */
 
 
@@ -118,7 +114,7 @@ table {
         margin-top: 30px !important;
         flex-direction: column;
     }
-    }
+    
 
     .bitch{
         width: 100%;
@@ -143,28 +139,9 @@ table {
 
     }
 
-    .divTable{
-
     }
-
-    .divTableBody{
-
-    }
-
-    .divTableRow{
-
-    }
-
-    .divTableHeading{
-
-    }
-
-    .divTableCell{
-
-    }
-
-  }
   
+
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
 
@@ -174,20 +151,7 @@ table {
 @media only screen and (min-width: 961px) {
 
 
-    .parent-container{
-        display: flex;
-        flex-direction: column;
-    }
 
-    .parent{
-        width: 961px !important;   
-        display: flex;
-        flex-direction: column;
-    }
-
-    .group{
-        width: 100%;
-    }
 
   }
 
@@ -325,7 +289,7 @@ p{
 }
 
 .girl-1{
-    width: 500px;
+    width: 440px;
     margin-top: -90px;
 }
 
