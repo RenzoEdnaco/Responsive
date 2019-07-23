@@ -139,10 +139,7 @@ table {
   width: 100%;
 }
 
-.table {
-  width: 100% !important;
-  overflow-y: hidden;
-}
+
 
 .divTable {
   display: block;
@@ -450,6 +447,8 @@ button {
 
   .ListOfActivity {
     width: auto;
+    margin: 0;
+    margin-bottom: 20px;
   }
 
   .ListOfActivity h1 {
@@ -479,7 +478,8 @@ button {
   }
 
   .responsive-challenge {
-    width: auto !important;
+    width: auto;
+    margin: 0;
   }
 
   .girl-1 {
@@ -513,7 +513,10 @@ button {
   }
 
   .table {
-  }
+    width: 100% !important;
+    overflow-y: hidden;
+  } 
+
 }
 
 /*======================== MOBILE ========================*/
