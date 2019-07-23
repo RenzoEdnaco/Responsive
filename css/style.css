@@ -1,505 +1,519 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
 
+  margin: 0;
 
-*, *:before, *:after {
-
-	box-sizing: border-box;
-
-	margin: 0;
-
-	padding: 0;
-
+  padding: 0;
 }
-
-
-
 
 /* CSS RESET */
 
-    .calltoaction{
-        padding: 0 !important;
-        margin-top: 30px !important;
-        flex-direction: column;
-    }
-    
-    .bitch{
-        width: 100%;
-    }
+.bitch {
+  width: 100%;
+}
 
+.table {
+  width: 100% !important;
+  overflow-y: hidden;
+}
 
+.divTable {
+  display: block;
+}
+
+.divTableRow {
+  display: table-cell;
+}
 
 /*======================== MEDIA QUERY ========================*/
 
-
-
-
-    /* TABLE SECTION */
-
-    .table{
-        width: 100% !important; 
-        overflow-y: hidden;
-        
-    }
-
-    .table-title{
-        flex-direction: column;
-    }
-
-    .search{
-        margin-top: 20px;
-    }
-
-    .divTable {
-        display: block;
-    }
-
-    .divTableRow{
-        display: table-cell;
-    }
-
-    .divTableBody {
-        display: table-row !important;
-    }
-
-
-    }
-  
-
-/* Tablet Styles */
-@media only screen and (min-width: 401px) and (max-width: 960px) {
-
-  }
-  
-/* Desktop Styles */
-@media only screen and (min-width: 961px) {
-
-
-
-
-  }
-
-
-/*======================== MEDIA QUERY ========================*/
-
-
-html{
-    height: 100%;
+html {
+  height: 100%;
 }
 
-body{
-    background-image: url("../svg/baphomet.svg");
-    background-color: #000000;
-    background-position: center;
-    background-repeat: no-repeat;
-    font-family: 'Montserrat', sans-serif;
-    background-attachment: fixed;
+body {
+  background-image: url("../svg/baphomet.svg");
+  background-color: #000000;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Montserrat", sans-serif;
+  background-attachment: fixed;
 }
 
-
-h1{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    color: #da2516;
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #da2516;
 }
 
-h2{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;   
-    font-size: 14px;
-    color: #da2516;
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #da2516;
 }
 
-
-
-p{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    color: #464646;
-    font-weight: 400;
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #464646;
+  font-weight: 400;
 }
 
-
-.parent-container{
-    display: flex;
-    justify-content: center;
+.parent-container {
+  display: flex;
+  justify-content: center;
 }
 
-
-.parent{
-    margin: 100px 0;
-    width: 1170px;
-
+.parent {
+  margin: 100px 0;
+  width: 1170px;
 }
 
-.group{
-    display: flex;
-    justify-content: space-evenly;
+.group {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.ListOfActivity{
-    width: 50%;
-    padding: 20px 20px 0 20px;
-    margin: 15px;
-    background-color: #000;
-    border: 1px solid #252525;
-    color: #da2516;
-    border-radius: 10px;
+.ListOfActivity {
+  width: 50%;
+  padding: 20px 20px 0 20px;
+  margin: 15px;
+  background-color: #000;
+  border: 1px solid #252525;
+  color: #da2516;
+  border-radius: 10px;
 }
 
-.ListOfActivity h1{
-    margin: 10px 0;
+.ListOfActivity h1 {
+  margin: 10px 0;
 }
 
-.responsive-challenge{
-    width: 50%;
-    padding: 20px 20px 0 20px;
-    margin: 15px;
-    background-color: #000;
-    border: 1px solid #252525;
-    color: #da2516;
-    border-radius: 10px;
+.responsive-challenge {
+  width: 50%;
+  padding: 20px 20px 0 20px;
+  margin: 15px;
+  background-color: #000;
+  border: 1px solid #252525;
+  color: #da2516;
+  border-radius: 10px;
 }
 
-
-.border-bottom{
-    margin: 20px 0 20px 0;
-    border: 1px solid #202020;
+.border-bottom {
+  margin: 20px 0 20px 0;
+  border: 1px solid #202020;
 }
 
-
-.row{
-    display: flex;
-    margin: 30px 0 30px 0;
-    justify-content: space-between;
+.row {
+  display: flex;
+  margin: 30px 0 30px 0;
+  justify-content: space-between;
 }
 
-.left-side{
-    display: flex;
-
+.left-side {
+  display: flex;
 }
 
-.initials{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    width: 40px;
-    height: 40px;
-    background-color: #da2516;
-    border-radius: 5px;
-    color: white;
-    margin-right: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.initials {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  width: 40px;
+  height: 40px;
+  background-color: #da2516;
+  border-radius: 5px;
+  color: white;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.initials p{
-    color: #fff;
+.initials p {
+  color: #fff;
 }
 
-.info{
-    margin: auto 0;
+.info {
+  margin: auto 0;
 }
 
-.info h2{
-    padding-bottom: 10px;
+.info h2 {
+  padding-bottom: 10px;
 }
 
-
-.right-side p{
-    font-size: 30px;
-    font-weight: 400;
-    color: #da2516;
+.right-side p {
+  font-size: 30px;
+  font-weight: 400;
+  color: #da2516;
 }
 
-.girl-1{
-    width: 440px;
-    margin-top: -90px;
-    margin-left: 40px;
+.girl-1 {
+  width: 90%;
+  margin: -90px 0 0 20px;
 }
 
-.tae{
-    height: 100%;
-
+.tae {
+  height: 100%;
 }
 
-
-.calltoaction{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
-    padding: 20px;
+.calltoaction {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
 }
 
-.bitch{
-    font-size: 18px;
-    font-weight: 500;
-    color: #da2516;
-    margin: auto 0;
+.bitch {
+  font-size: 18px;
+  font-weight: 500;
+  color: #da2516;
+  margin: auto 0;
 }
 
-.read-more{
-    color: #da2516;
-    padding: 15px;
-    width: 100px;
-    border: 1px solid #da2516;
-    border-radius: 100px;
+.read-more {
+  color: #da2516;
+  padding: 15px;
+  width: 150px;
+  border: 1px solid #da2516;
+  border-radius: 100px;
 }
 
-.read-more p{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    color: #da2516;
-    text-align: center;
+.read-more p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #da2516;
+  text-align: center;
 }
-
-
-
 
 /*======================== TABLE ========================*/
 
-.table{
-    padding: 20px;
-    margin: 15px;
-    background-color: #000;
-    border: 1px solid #252525;
-    height: auto;
-    color: #da2516;
-    border-radius: 10px;
+.table {
+  padding: 20px;
+  margin: 15px;
+  background-color: #000;
+  border: 1px solid #252525;
+  height: auto;
+  color: #da2516;
+  border-radius: 10px;
 }
 
-.table-title{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-bottom: 20px;
+.table-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
 }
 
-.table-title input{
-    border: 1px solid #252525;
-    background-color: #000;
-    color: #464646;
-    padding: 10px;
+.table-title input {
+  border: 1px solid #252525;
+  background-color: #000;
+  color: #464646;
+  padding: 10px;
+  font-size: 13px;
 }
 
-.table-title input:hover{
-    border: 1px solid #da2516;
-    color: #da2516;
-    
+.table-title input:hover {
+  border: 1px solid #da2516;
+  color: #da2516;
 }
 
-.table-title input:focus{
-    border: 1px solid #da2516;
-    color: #da2516;
+.table-title input:focus {
+  border: 1px solid #da2516;
+  color: #da2516;
 }
 
-.search{
-    display: flex;
+.search {
+  display: flex;
 }
 
-button{
-    border: none;
-    background-color: #da2516;
-    color: #fff;
-    padding: 10px 20px 10px 20px;
-    cursor: pointer;
-    font-weight: 400;
-    height: 38px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+button {
+ border: none;
+  background-color: #da2516;
+  color: #fff;
+  padding: 10px 20px 10px 20px;
+  cursor: pointer;
+  font-weight: 400;
+  height: 38px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
 }
 
-
-.bitch{
-    font-size: 16px;
-    font-weight: 400;
-    color: #464646;
+.bitch {
+  font-size: 16px;
+  font-weight: 400;
+  color: #464646;
 }
-
 
 /*======================== TABLE MISMO ========================*/
 
-.divTable{
-	display: table;
-    width: 100%;
+.divTable {
+  display: table;
+  width: 100%;
 }
 .divTableRow {
-    display: table-row;
-
+  display: table-row;
 }
 
 .divTableHeading {
-	background-color: #252525;
-    display: table-header-group;
-    display: table-cell;
-    padding: 15px 10px;
-    border: none;
-    color: #505050;
-    font-size: 10px;
-    font-weight: 600;
+  background-color: #252525;
+  display: table-header-group;
+  display: table-cell;
+  padding: 15px 10px;
+  border: none;
+  color: #505050;
+  font-size: 10px;
+  font-weight: 600;
 }
 
-.divTableHeading:nth-child(2){
-    width: 30%; 
+.divTableHeading:nth-child(2) {
+  width: 30%;
 }
 
-.divTableCell, .divTableHead {
-	border: 1px solid #252525;
-	display: table-cell;
-    padding: 15px 10px;
-    color: #464646;
-    font-weight: 400;
-    font-size: 14px;
-}
-
+.divTableCell,
+.divTableHead {
+  border: 1px solid #252525;
+  display: table-cell;
+  padding: 15px 10px;
+  color: #464646;
+  font-weight: 400;
+  font-size: 14px;
+    }
 
 .divTableFoot {
-	background-color: #EEE;
-	display: table-footer-group;
-	font-weight: bold;
+  background-color: #eee;
+  display: table-footer-group;
+  font-weight: bold;
 }
 .divTableBody {
-	display: table-row-group;
+  display: table-row-group;
 }
-
 
 /*======================== TABLE MISMO ========================*/
 
+/*======================== TABLET ========================*/
 
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+}
+
+/*======================== TABLET ========================*/
 
 /*======================== MOBILE ========================*/
 
 @media only screen and (max-width: 525px) {
+  body {
+    background-image: url("../svg/baphomet.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
 
-    body{
-        background-image: url("../svg/baphomet.svg");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
+  .parent {
+    display: flex;
+    margin: 0;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+  }
 
-    .parent{
-        display: flex;
-        margin: 0;
-        align-items: center;
-        flex-direction: column;
-        padding: 20px;
-        width: 100%;
-    }
+  .group {
+    width: 100%;
+    flex-direction: column;
+  }
 
-    .group{
-        width: 100%;
-        flex-direction: column;
-    }
+  .ListOfActivity {
+    width: auto;
+  }
 
-    .ListOfActivity{
-        width: auto;
-    }   
+  .ListOfActivity h1 {
+    text-align: center;
+  }
 
-    .ListOfActivity h1{
-        text-align: center;
-    }
+  .left-side {
+    width: 50%;
+  }
 
+  .right-side {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+  }
 
-    .left-side{
-        width: 50%;
-    }
+  .initials {
+    display: none !important;
+  }
 
-    .right-side{
-        width: 50%;
-        display: flex;
-        justify-content: flex-end;
-    }
+  .info h2 {
+    padding-bottom: 5px !important;
+  }
 
-    .initials{
-        display: none !important;
-    }
+  .info p {
+    line-height: 20px;
+  }
 
-    .info h2 {
+  .responsive-challenge {
+    width: auto !important;
+  }
 
-        padding-bottom: 5px !important;
-    }
+  .girl-1 {
+    width: auto;
+    margin-top: -40px;
+    margin-left: 0px;
+  }
 
-    .info p{
-        line-height: 20px;
-    }
+  .calltoaction {
+    padding: 0 !important;
+    margin-top: 30px !important;
+    flex-direction: column;
+  }
 
-    .responsive-challenge{
-        width: auto !important;
-    }
+  .bitch {
+    width: 100%;
+    text-align: center;
+  }
 
+  .read-more {
+    margin: 20px auto;
+    width: 40%;
+  }
 
-    .girl-1{
-        width: auto;
-        margin-top: -40px;
-        margin-left: 0px;
-    }
+  .table-title {
+    width: 100%;
+  }
 
-    .calltoaction{
-        padding: 0 !important;
-        margin-top: 30px !important;
-        flex-direction: column;
-    }
-    
+  .table-title h1 {
+    text-align: center;
+  }
 
-    .bitch{
-        width: 100%;
-        text-align: center;
-    }
+  .table {
+  }
+}
 
-    .read-more{
-        margin: 20px auto;
-        width: 40%;
-    }
-
-    .table-title{
-        width   : 100%;
-    }
-
-    .table-title h1{
-        text-align: center;
-    }
+/*======================== MOBILE ========================*/
