@@ -43,21 +43,78 @@ table {
 }
 
 
-
-*, *:before, *:after {
-
-	box-sizing: border-box;
-
-	margin: 0;
-
-	padding: 0;
-
-}
-
-
-
-
 /* CSS RESET */
+
+
+
+
+/*======================== MEDIA QUERY ========================*/
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 320px) {
+
+    body{
+        background-image: url("../svg/baphomet.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    .parent{
+        width: 320px !important;
+        display: flex;
+        margin: 0 !important;
+        align-items: center;
+    }
+
+    .group{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .ListOfActivity{
+        width: auto !important;
+    }   
+
+    .ListOfActivity h1{
+        text-align: center;
+    }
+
+
+    .left-side{
+        width: 50%;
+    }
+
+    .right-side{
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .initials{
+        display: none !important;
+    }
+
+    .info h2 {
+
+        padding-bottom: 5px !important;
+    }
+
+    .info p{
+        line-height: 20px;
+    }
+
+    .responsive-challenge{
+        width: auto !important;
+    }
+
+
+    .girl-1{
+        width: 250px !important;
+        margin-top: -40px !important;
+        margin-left: 0px !important;
+    }
 
     .calltoaction{
         padding: 0 !important;
@@ -69,11 +126,9 @@ table {
         width: 100%;
     }
 
-
-
-/*======================== MEDIA QUERY ========================*/
-
-
+    .read-more{
+        margin: 20px auto;
+    }
 
 
     /* TABLE SECTION */
@@ -103,7 +158,6 @@ table {
     .divTableBody {
         display: table-row !important;
     }
-
 
     }
   
@@ -408,98 +462,3 @@ button{
 
 
 /*======================== TABLE MISMO ========================*/
-
-
-
-/*======================== MOBILE ========================*/
-
-@media only screen and (max-width: 525px) {
-
-    body{
-        background-image: url("../svg/baphomet.svg");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
-
-    .parent{
-        display: flex;
-        margin: 0;
-        align-items: center;
-        flex-direction: column;
-        padding: 20px;
-        width: 100%;
-    }
-
-    .group{
-        width: 100%;
-        flex-direction: column;
-    }
-
-    .ListOfActivity{
-        width: auto;
-    }   
-
-    .ListOfActivity h1{
-        text-align: center;
-    }
-
-
-    .left-side{
-        width: 50%;
-    }
-
-    .right-side{
-        width: 50%;
-        display: flex;
-        justify-content: flex-end;
-    }
-
-    .initials{
-        display: none !important;
-    }
-
-    .info h2 {
-
-        padding-bottom: 5px !important;
-    }
-
-    .info p{
-        line-height: 20px;
-    }
-
-    .responsive-challenge{
-        width: auto !important;
-    }
-
-
-    .girl-1{
-        width: auto;
-        margin-top: -40px;
-        margin-left: 0px;
-    }
-
-    .calltoaction{
-        padding: 0 !important;
-        margin-top: 30px !important;
-        flex-direction: column;
-    }
-    
-
-    .bitch{
-        width: 100%;
-        text-align: center;
-    }
-
-    .read-more{
-        margin: 20px auto;
-        width: 40%;
-    }
-
-    .table-title{
-        width   : 100%;
-    }
-
-    .table-title h1{
-        text-align: center;
-    }
