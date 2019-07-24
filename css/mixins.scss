@@ -1,0 +1,9 @@
+@mixin flexCenter($content){
+    display: flex;
+    justify-content: $content;
+}
+
+@mixin flexColumn {
+    display: flex;
+    flex-direction: column;
+}
